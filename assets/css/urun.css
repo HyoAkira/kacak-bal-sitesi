@@ -1,0 +1,86 @@
+ul {
+    list-style-type: none;
+    display:flex;
+}
+li{
+    margin-left:1.2vw;
+    display: block;
+}
+
+li > a {
+    text-decoration: none;
+    color: azure;
+    font-style: oblique;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 2.5vh;
+}
+li > a:hover{
+   background-color: hsla(0, 0%, 40%, 0.46);
+}
+header {
+    padding-top:2vh;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+
+#container1{
+    display: flex;
+    flex-direction: row;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 5vw;
+}
+
+#container1 div {
+    width: 60%;
+    color: white;
+}
+
+#container1 > img {
+    width: 40%;
+    filter:brightness(90%);
+}
+
+#container1 form input[type="number"]{
+    text-align: right;
+    width: 40%;
+    border-radius: 15vw;
+    
+}
+
+#container1 form input[type="button"]{
+background-color: rgb(255, 209, 5);
+border-radius: 15vw;
+border-color: transparent;
+color: rgb(63, 62, 0);
+font-weight: bold;
+height: 2.5vw;
+width: auto;
+}
+#container1 form input[type="button"]:hover{
+    background-color: rgb(204, 168, 8);
+    cursor: pointer;
+  
+}
+#container1 form{
+   display: flex;
+}
+#container1 form div:first-child{
+    display: flex;
+    gap: 1vw;
+}
+ 
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient(hsla(0, 0%, 0%, 0.77),hsla(0, 0%, 0%, 0.77)),url("../img/hero3.jpg");
+    font-size: 3.4vh;
+}
+
+html,body{
+    margin: 0 ;
+    padding: 0 ;
+}

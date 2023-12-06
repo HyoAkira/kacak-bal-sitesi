@@ -1,0 +1,74 @@
+ul {
+    list-style-type: none;
+    display:flex;
+}
+li{
+    margin-left:1.2vw;
+    display: block;
+}
+li > a {
+    text-decoration: none;
+    color: azure;
+    font-style: oblique;
+    border: 0.2vw solid black;
+    border-radius: 14px;
+    padding: 2.5vh;
+    background-color: hsla(0, 0%, 40%, 0.46);
+}
+li > a:hover{
+    background-color: hsla(0, 0%, 40%, 0.76);
+ }
+ header {
+     padding-top:3vh;
+     display: flex;
+     align-items: center;
+     
+     
+ }
+ 
+#urunler{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap:wrap ;
+   
+}
+.card {
+    display:flex;
+    flex-direction: column;
+    width: 20%;
+    justify-content: center;
+}
+
+.card:hover{
+    cursor: pointer;
+
+}
+.card-title{
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+body,html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url("../img/background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+#hero {
+    padding: 0 5%;
+}
+#metinler{
+    margin-top:5%;
+    padding: 0 5%; 
+}
+img {
+    height: auto;
+    width: 100%;
+}
